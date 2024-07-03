@@ -1,0 +1,40 @@
+header{
+    background-image: url("/web-programacion/panel2.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: auto;
+}  
+
+img{
+    width: 100%;
+}
+h2,h3,p{
+    padding: 0;
+}
+.titulo{
+    padding: 25px 20px;
+    color: white;
+    text-shadow: 2px 2px 2px #000;
+    margin: 0;
+}
+swiper-slide{
+    height: 40vh;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+swiper-container{
+    padding-bottom: 90px;
+}
+.slide-custom{
+    color: #fff;
+    padding: 0px 15px;
+    background-color: #000000c5;
+}
+
