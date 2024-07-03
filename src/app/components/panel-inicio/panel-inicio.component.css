@@ -1,0 +1,38 @@
+ul,li,nav{
+    margin: 0;
+    padding: 0;
+}
+ul{
+    list-style: none;
+}
+nav ul {
+    position: absolute;
+    display: flex;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    font-feature-settings: 20;
+}
+li{
+    height: 100%;
+}
+a{  
+    display: flex;
+    align-items: center;
+    height: 100%;
+    padding: 0 20px;
+    text-decoration: none;
+    color: #fff;
+    text-shadow: 1px 1px 2px #bdbdbd;
+    transition: 200ms;
+}
+a:hover{
+    background-color: #000;
+    color: #fff;
+}
+
+header{
+    background-image: url("/choosepanel.jpg");
+    width: 100%;
+    height: 100vh;
+}
