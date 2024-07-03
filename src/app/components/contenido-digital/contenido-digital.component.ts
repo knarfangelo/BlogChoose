@@ -15,7 +15,7 @@ register();
   schemas: [CUSTOM_ELEMENTS_SCHEMA],
   imports: [],
   template: `<header>
-  <h2 class="titulo">Contenido Digital</h2>
+  <h2 class="titulo" id="contenido-digital">Contenido Digital</h2>
     <swiper-container init=false class="swiper-contenido-digital">
       @for (item of swiperObjects; track $index) {
       <swiper-slide style="background-image: url({{item.img}});">
